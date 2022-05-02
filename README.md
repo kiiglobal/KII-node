@@ -21,7 +21,7 @@
 
 **Download the Linux daemon with the following command:**
 
-*wget "https://github.com/kiiglobal/KII-Linux-daemon/blob/main/kii-daemon-linux.tar.gz" -O kii-daemon-linux.tar.gz*
+*wget "https://github.com/kiiglobal/KII-Linux-daemon/raw/main/kii-daemon-linux.tar.gz" -O kii-daemon-linux.tar.gz*
 
 **Extract the tar file with the following command:**
 
@@ -29,7 +29,7 @@
 
 **Download the Linux tools with the following command:**
 
-*wget "https://github.com/kiiglobal/KII-Linux-wallet/blob/main/kii-qt-linux.tar.gz" -O kii-qt-linux.tar.gz*
+*wget "https://github.com/kiiglobal/KII-Linux-wallet/raw/main/kii-qt-linux.tar.gz" -O kii-qt-linux.tar.gz*
 
 **Extract the tar file with the following command:**
 
