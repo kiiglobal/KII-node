@@ -50,12 +50,19 @@
 **Paste the following into nano.**
 
 *rpcuser=rpc_kii*
+
 *rpcpassword=dR2oBQ3K1zYMZQtJFZeAerhWxaJ5Lqeq9J2*
+
 *rpcbind=0.0.0.0*
+
 *rpcallowip=127.0.0.1*
+
 *listen=1*
+
 *server=1*
+
 *txindex=1*
+
 *daemon=1*
 
 **Save the file with the keyboard shortcut `ctrl` + `x`.**
