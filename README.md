@@ -13,7 +13,7 @@
 
 *sudo add-apt-repository ppa:bitcoin/bitcoin*
 
-**Confirm the installation of the repository by pressing on the enter key. *enter* **
+**Confirm the installation of the repository by pressing on the enter key. _enter_**
 
 **Install Berkeley DB with the following command:**
 
