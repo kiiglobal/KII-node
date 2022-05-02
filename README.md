@@ -18,3 +18,48 @@
 **Install Berkeley DB with the following command:**
 
 *sudo apt-get update && sudo apt-get install libdb4.8-dev libdb4.8++-dev -y*
+
+**Download the Linux daemon with the following command:**
+
+*wget "https://github.com/kiiglobal/KII-Linux-daemon/blob/main/kii-daemon-linux.tar.gz" -O kii-daemon-linux.tar.gz*
+
+**Extract the tar file with the following command:**
+
+*tar -xzvf kii-daemon-linux.tar.gz*
+
+**Download the Linux tools with the following command:**
+
+*wget "https://github.com/kiiglobal/KII-Linux-wallet/blob/main/kii-qt-linux.tar.gz" -O kii-qt-linux.tar.gz*
+
+**Extract the tar file with the following command:**
+
+*tar -xzvf kii-qt-linux.tar.gz*
+
+**Type the following command to install the daemon and tools:**
+
+*sudo mv kiid kii-cli kii-tx /usr/bin/*
+
+**Create the data directory for KII with the following command:**
+
+*mkdir $HOME/.kii*
+
+**Open nano.**
+
+*nano $HOME/.kii/kii.conf -t*
+
+**Paste the following into nano.**
+
+*rpcuser=rpc_kii*
+*rpcpassword=dR2oBQ3K1zYMZQtJFZeAerhWxaJ5Lqeq9J2*
+*rpcbind=0.0.0.0*
+*rpcallowip=127.0.0.1*
+*listen=1*
+*server=1*
+*txindex=1*
+*daemon=1*
+
+**Save the file with the keyboard shortcut `ctrl` + `x`.**
+
+**Type the following command to start your node:**
+
+*kiid*
