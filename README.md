@@ -1,4 +1,4 @@
-# KIInode
+# KII-node
 ## Tutorial - Install KII node on Ubuntu Server
 
 **Update your Ubuntu server with the following command:**
